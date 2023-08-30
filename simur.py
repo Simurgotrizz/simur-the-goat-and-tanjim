@@ -11,11 +11,6 @@ def main():
     st.image(plant_cell_image, caption="Plant Cell", use_column_width=True)
     st.image(refrigerator_image, caption="Refrigerator", use_column_width=True)
 
-
-# Page Title and Header
-st.title("Comparing a Refrigerator to Parts of a Plant Cell")
-st.header("An Analogous Comparison")
-
 # Introduction
 st.markdown(
     "Just as different parts of a plant cell work together to ensure its proper functioning, "
