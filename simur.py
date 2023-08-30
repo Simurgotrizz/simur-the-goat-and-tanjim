@@ -6,7 +6,7 @@ def main():
 
     # Load images
     plant_cell_image = "plant_cell.jpg"
-    refridgerator_image = "refrigerator.jpg"
+    refrigerator_image = "refridgerator.jpg"
 
     st.image(plant_cell_image, caption="Plant Cell", use_column_width=True)
     st.image(refrigerator_image, caption="Refrigerator", use_column_width=True)
