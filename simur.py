@@ -1,13 +1,31 @@
-# Define the components of a plant cell and a refrigerator
-plant_cell_components = ["Cell Wall", "Cell Membrane", "Cytoplasm", "Nucleus", "Mitochondria", "Chloroplasts", "Vacuole"]
-refrigerator_components = ["Outer Structure", "Compartments", "Energy Source", "Storage", "Water Regulation", "Temperature Regulation", "Internal Components"]
+import streamlit as st
 
-# Print a header for the comparison
-print("Comparison between a Plant Cell and a Refrigerator")
+def main():
+    st.title("Plant Cell vs. Refrigerator Comparison")
+    st.write("Explore the similarities and differences between a plant cell and a refrigerator!")
 
-# Iterate through the components and print similarities
-for i in range(len(plant_cell_components)):
-    print(f"{plant_cell_components[i]} (Plant Cell) is similar to {refrigerator_components[i]} (Refrigerator)")
+    # Load images
+    plant_cell_image = "plant_cell.jpg"
+    refrigerator_image = "refrigerator.jpg"
 
-# Print a footer for the comparison
-print("\nThese comparisons highlight the similarities between a plant cell and a refrigerator.")
+    st.image(plant_cell_image, caption="Plant Cell", use_column_width=True)
+    st.image(refrigerator_image, caption="Refrigerator", use_column_width=True)
+
+    st.header("Comparison:")
+    st.subheader("1. Structure")
+    st.write("A plant cell has a defined structure with various organelles, similar to the compartments and shelves in a refrigerator.")
+
+    st.subheader("2. Energy Source")
+    st.write("Plant cells generate energy through photosynthesis using chloroplasts. A refrigerator requires electricity to power its cooling system.")
+
+    st.subheader("3. Storage")
+    st.write("Both entities have storage capabilities: a plant cell stores nutrients and water, while a refrigerator stores food and beverages.")
+
+    st.subheader("4. Regulation")
+    st.write("Plant cells regulate water and nutrients using the cell membrane and vacuole, while a refrigerator regulates temperature and humidity.")
+
+    st.subheader("5. Maintenance")
+    st.write("Regular maintenance of a refrigerator ensures efficient cooling, just as a plant cell requires proper care for its health.")
+
+if __name__ == "__main__":
+    main()
