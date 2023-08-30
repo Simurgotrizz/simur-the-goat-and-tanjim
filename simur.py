@@ -1,25 +1,13 @@
-import streamlit as st
+# Define the components of a plant cell and a refrigerator
+plant_cell_components = ["Cell Wall", "Cell Membrane", "Cytoplasm", "Nucleus", "Mitochondria", "Chloroplasts", "Vacuole"]
+refrigerator_components = ["Outer Structure", "Compartments", "Energy Source", "Storage", "Water Regulation", "Temperature Regulation", "Internal Components"]
 
-# Set page title and description
-st.title("Cell and Refrigerator Comparison")
-st.write("Explore the analogy between a cell and a refrigerator.")
+# Print a header for the comparison
+print("Comparison between a Plant Cell and a Refrigerator")
 
-# Create a dictionary to store cell parts and their refrigerator analogies
-cell_parts = {
-    "Cell Membrane": "Refrigerator Door",
-    "Cytoplasm": "Interior of Refrigerator",
-    "Mitochondria": "Power Source (Compressor)",
-    "Endoplasmic Reticulum": "Shelves for Storage",
-    "Golgi Apparatus": "Packaging and Shipping Area",
-    "Nucleus": "Control Center",
-    "Vacuoles": "Storage Compartments",
-}
+# Iterate through the components and print similarities
+for i in range(len(plant_cell_components)):
+    print(f"{plant_cell_components[i]} (Plant Cell) is similar to {refrigerator_components[i]} (Refrigerator)")
 
-# Create a sidebar to select a cell part
-selected_part = st.sidebar.selectbox("Select a Cell Part", list(cell_parts.keys()))
-
-# Display the analogy
-st.subheader(f"{selected_part} is like {cell_parts[selected_part]}")
-
-# Explain the analogy
-st.write("Just as a cell has various parts with specific functions, a refrigerator also has different components that work together to maintain its functionality. For example, the cell membrane is analogous to the refrigerator door, as it controls what enters and exits the cell, similar to how the door controls access to the refrigerator's interior.")
+# Print a footer for the comparison
+print("\nThese comparisons highlight the similarities between a plant cell and a refrigerator.")
