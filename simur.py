@@ -22,12 +22,17 @@ st.header("Comparison Table")
 
 comparison_data = {
     "Plant Cell": [
-        "Cell Membrane",
-        "Nucleus",
+        "Cell Wall",
+        "Chloroplast",
+        "Cytoplasm",
+        "Lysosome",
         "Mitochondria",
+        "Nucleus",
         "Endoplasmic Reticulum",
-        "Golgi Apparatus",
-    ],
+        "Golgi Body (a.k.a. Golgi Apparatus)*",
+        "Ribosomes",
+        "Vacuoles",]
+}
     "Refrigerator": [
         "Door Seal",
         "Thermostat",
