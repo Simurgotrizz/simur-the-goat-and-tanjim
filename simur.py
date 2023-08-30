@@ -32,7 +32,7 @@ comparison_data = {
         "Golgi Body (a.k.a. Golgi Apparatus)*",
         "Ribosomes",
         "Vacuoles",]
-}
+} 
     "Refrigerator": [
         "Door Seal",
         "Thermostat",
