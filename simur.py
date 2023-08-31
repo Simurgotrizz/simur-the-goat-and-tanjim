@@ -15,7 +15,7 @@ st.markdown(
 st.image("plant_cell.jpg", caption="Plant Cell", use_column_width=True)
 
 # Refrigerator Image
-st.image("refridgerator.jpg", caption="Refrigerator", use_column_width=True)
+st.image("house.jpg", caption="Refrigerator", use_column_width=True)
 
 # Comparison Table
 st.header("Comparison Table")
