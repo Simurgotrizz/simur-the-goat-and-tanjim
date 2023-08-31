@@ -22,10 +22,10 @@ st.header("Comparison Table")
 
 comparison_data = {
     "Plant Cell": [
-        "Cell Wall",
-        "Chloroplast",
-        "Cytoplasm",
-        "Lysosome",
+        "Cell Wall", 
+        "Chloroplast", 
+        "Cytoplasm", 
+        "Lysosome", 
         "Mitochondria",
         "Nucleus",
         "Endoplasmic Reticulum",
@@ -36,10 +36,15 @@ comparison_data = {
 
     "Refrigerator": [
         "Walls of the house",
-        "Thermostat",
-        "Compressor",
-        "Cooling Coils",
-        "Fan",
+        "the kitchen",
+        "Air in the house",
+        "garbage disposal or recycling container",
+        "the fireplace and electricity",
+        "The home owner",
+        "Hallways and pipes in the house",
+        "Backpack or luggage",
+        "the oven, grill, or microwave of the house",
+        "refrigerator, closet, or pantry",
     ],
 }
 
