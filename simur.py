@@ -2,7 +2,7 @@ import streamlit as st
 
 # Page Title and Header
 st.title("Comparing parts of a house to parts of a plant Cell")
-st.header("An Analogous Comparison") 
+st.header("An analogous comparison") 
 
 # Introduction
 st.markdown(
