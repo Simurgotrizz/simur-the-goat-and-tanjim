@@ -1,13 +1,13 @@
 import streamlit as st
 
 # Page Title and Header
-st.title("Comparing a Refrigerator to Parts of a Plant Cell")
+st.title("Comparing a House to Parts of a Plant Cell")
 st.header("An Analogous Comparison")
 
 # Introduction
 st.markdown(
     "Just as different parts of a plant cell work together to ensure its proper functioning, "
-    "a refrigerator also consists of various components that contribute to its operation. "
+    "a house also consists of various components that contribute to its operation. "
     "Let's explore the similarities between them!"
 )
 
@@ -34,17 +34,17 @@ comparison_data = {
         "Vacuoles",
     ],
 
-    "Refrigerator": [
+    "house": [
         "Walls of the house",
-        "the kitchen",
+        "The kitchen",
         "Air in the house",
-        "garbage disposal or recycling container",
-        "the fireplace and electricity",
+        "Garbage disposal or recycling container",
+        "The fireplace and electricity",
         "The home owner",
         "Hallways and pipes in the house",
         "Backpack or luggage",
-        "the oven, grill, or microwave of the house",
-        "refrigerator, closet, or pantry",
+        "The oven, grill, or microwave of the house",
+        "Refrigerator, closet, or pantry",
     ],
 }
 
@@ -53,7 +53,7 @@ st.table(comparison_data)
 # Conclusion
 st.header("Conclusion")
 st.markdown(
-    "While a plant cell and a refrigerator serve completely different purposes, "
+    "While a plant cell and a house serve completely different purposes, "
     "it's interesting to draw parallels between their components. Both examples highlight "
     "how individual parts contribute to the overall functioning of the system."
 )
