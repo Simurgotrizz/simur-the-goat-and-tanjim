@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Page Title and Header
-st.title("Comparing a House to Parts of a Plant Cell")
+st.title("Comparing a parts of a house to parts of a plant Cell")
 st.header("An Analogous Comparison") 
 
 # Introduction
@@ -12,7 +12,7 @@ st.markdown(
 )
 
 # Plant Cell Image
-st.image("plant_cell.jpg", caption="Plant Cell", use_column_width=True)
+st.image("plant_cell.jpg", use_column_width=True)
 
 # Refrigerator Image
 st.image("Parts-of-a-house.jpg", caption="house", use_column_width=True)
@@ -34,7 +34,7 @@ comparison_data = {
         "Vacuoles",
     ],
 
-    "house": [
+    "House": [
         "Walls of the house",
         "The kitchen",
         "Air in the house",
