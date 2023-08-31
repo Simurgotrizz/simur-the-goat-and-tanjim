@@ -31,7 +31,8 @@ comparison_data = {
         "Endoplasmic Reticulum",
         "Golgi Body (a.k.a. Golgi Apparatus)*",
         "Ribosomes",
-        "Vacuoles",]
+        "Vacuoles",
+    ],
 
     "Refrigerator": [
         "Door Seal",
